@@ -57,6 +57,8 @@ var ini = new SimpleIni("config.ini");
 ### Get string value
 ```csharp
 string version = ini.Get<string>("Version");
+//or
+string name = ini.Get("Name");
 ```
 
 ### Typed values
