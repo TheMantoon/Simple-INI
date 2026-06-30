@@ -42,12 +42,12 @@ Fullscreen=true
 
 ### Add namespace
 ```csharp
-var ini = new SimpleIni("config.ini");
+using Ini;
 ```
 
 ### Create instance
 ```csharp
-using Ini;
+var ini = new SimpleIni("config.ini");
 ```
 
 ### Get string value
