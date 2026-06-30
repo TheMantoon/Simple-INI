@@ -83,7 +83,6 @@ namespace Ini
         public void Save()
         {
             using var writer = new StreamWriter(_path);
-
             foreach (var section in _data)
             {
                 writer.WriteLine(section.Key);
