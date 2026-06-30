@@ -24,6 +24,7 @@ namespace Ini
         {
             _data.Clear();
             string currentSection = "[]";
+            if (!File.Exists(_path)) File.WriteAllText(_path, currentSection);
             foreach (var rawLine in File.ReadLines(_path))
             {
                 var line = rawLine.Trim();
