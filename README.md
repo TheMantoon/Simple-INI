@@ -1,6 +1,6 @@
 # Simple INI ⚙️
 
-A lightweight, fast and dependency-free INI parser for C#.
+A lightweight, fast and dependency-free INI parser for C#
 
 Supports both modern INI format and legacy config styles used in older applications and game launchers.
 
