@@ -23,18 +23,22 @@ Supports both modern INI format and legacy config styles used in older applicati
 ## 📁 Supported INI formats
 
 ### Modern format
+```ini
 [GENERAL]
 Version=1.0.5
 Path=C:\Games\MyGame
 Fullscreen=true
+```
 
 ---
 
 ### Legacy format
+```ini
 []
 Version=1.0.5
 Path=C:\Games\MyGame
 Fullscreen=true
+```
 
 ---
 
