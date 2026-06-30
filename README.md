@@ -40,9 +40,14 @@ Fullscreen=true
 
 ## 🧑‍💻 Usage
 
-### Create instance
+### Add namespace
 ```csharp
 var ini = new SimpleIni("config.ini");
+```
+
+### Create instance
+```csharp
+using Ini;
 ```
 
 ### Get string value
